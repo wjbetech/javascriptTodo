@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plain JS Todo | @wjbetech</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>Todo List</header>
+
+  <div class="container">
+
+    <form id="search">
+      <input name="searchTodos" id="searchTodos" type="text" placeholder="search todos">
+    </form>
+
+    <!-- display todos -->
+    <div class="todos-container">
+      <ul id="todos-list">
+        <li class="todo-item">First todo item <span class="end-icon"><i class='bx bx-trash-alt'></i></span></li>
+        <li class="todo-item">Second todo item <span class="end-icon"><i class='bx bx-trash-alt'></i></span></li>
+        <li class="todo-item">Third todo item <span class="end-icon"><i class='bx bx-trash-alt'></i></span></li>
+      </ul>
+    </div>
+
+    <div class="add-todo">
+      <form id="add">
+        <input type="text" id="addTodo" name="addTodo" placeholder="add todo">
+      </form>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
