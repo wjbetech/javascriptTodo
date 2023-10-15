@@ -85,6 +85,7 @@ input:focus {
     align-items: center;
     font-weight: 100;
     justify-content: center;
+    transition: all 0.3s ease-in-out;
   }
 
   & span {
@@ -110,4 +111,8 @@ input:focus {
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
   }
+}
+
+.hide {
+  display: none !important;
 }
